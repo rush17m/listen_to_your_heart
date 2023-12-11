@@ -1,5 +1,5 @@
 # This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
+# $ conda create --name ltyh-env --file lstm-requirements.txt -c conda-forge
 # platform: osx-arm64
 _tflow_select=2.2.0=eigen
 abseil-cpp=20211102.0=hc377ac9_0
