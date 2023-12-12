@@ -11,6 +11,17 @@ _____________________________
 * Run the download.ipynb <br>
 
 ### CNN Code Set Up  <br>
+#### Create Environment <br>
+> :bulb: **Tip:** Create Environment using Python Version 3.8 <br>
+> :bulb: **Tip:** Use Platform: osx-arm64. <br>
+
+#### Run the following code: <br>
+<ol>
+  <li> Create Environment : conda create -n my_cnn_env -c conda-forge --platform osx-arm64 python=3.8 </li>
+  <li> Activate the environment: conda activate my_lstm_env </li>
+  <li> Install the required packages: conda install --file requirements.txt -c conda-forge</li>
+  <li> Run the generate cnn.ipynb Jupyter Notebook </li>
+</ol>
 
 ### LSTM Model Code Set Up 
 #### Create Environment <br>
@@ -18,13 +29,22 @@ _____________________________
 > :bulb: **Tip:** Use Platform: osx-arm64. <br>
 #### Run the following code: <br>
 <ol>
-  <li> Create Environment : conda create -n my_lstm_env -c conda-forge --platform osx-arm64 python=3.10 </li>
+  <li> Create Environment: conda create -n my_lstm_env -c conda-forge --platform osx-arm64 python=3.10 </li>
   <li> Activate the environment: conda activate my_lstm_env</li>
-  <li> Install the required packages: Install conda install --file lstm-requirements.txt -c conda-forge</li>
+  <li> Install the required packages: conda install --file lstm-requirements.txt -c conda-forge</li>
   <li> Run the lstm.ipynb Jupyter Notebook </li>
 </ol>
 
 ### Lime Segmentation Implementation 
+> :bulb: **Tip:** Create Environment using Python Version 3.8 <br>
+> :bulb: **Tip:** Use Platform: osx-arm64. <br>
+#### Run the following code: <br>
+<ol>
+  <li> Create Environment: conda create -n my_lime_env -c conda-forge --platform osx-arm64 python=3.8 </li>
+  <li> Activate the environment: conda activate my_lime_env </li>
+  <li> Install the required packages:</li>
+  <li> Run the explain.ipynb Jupyter Notebook </li>
+</ol>
 
 
 
