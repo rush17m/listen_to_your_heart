@@ -9,7 +9,7 @@ _____________________________
 
 
 ### Data Load Set Up  <br>
-> **Tip:** Load data from PyhsioNet  <br>
+> Load data from PyhsioNet  <br>
 * Run the download.ipynb <br>
 
 ### CNN Code Set Up  <br>
