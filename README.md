@@ -6,7 +6,8 @@
 
 
 ### Data Load Set Up  <br>
-
+> :bulb: **Tip:** Load data from PyhsioNet  <br>
+* Run the download.ipynb <br>
 
 ### CNN Code Set Up  <br>
 
