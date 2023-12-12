@@ -12,8 +12,8 @@
 
 ### LSTM Model Code Set Up 
 #### Create Environment <br>
-> :bulb: **Tip:** Create Environment using Python Version 3.10.13
-> :bulb: **Tip:** Use Platform: osx-arm64.
+> :bulb: **Tip:** Create Environment using Python Version 3.10.13 <br>
+> :bulb: **Tip:** Use Platform: osx-arm64. <br>
 Run the following code: <br>
 <ol>
   <li> Create Environment : conda create -n my_lstm_env -c conda-forge --platform osx-arm64 python=3.10 </li>
