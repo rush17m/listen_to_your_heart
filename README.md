@@ -44,6 +44,7 @@ _____________________________
 <ol>
   <li> Create Environment: conda create -n my_lime_env -c conda-forge --platform osx-arm64 python=3.8 </li>
   <li> Activate the environment: conda activate my_lime_env </li>
+  <li> Git clone https://github.com/rush17m/LIMESegment </li>
   <li> Install the required packages: listen_to_your_heart/LIMESegment/requirements.txt </li>
   Run:
   <li> Run the explain.ipynb Jupyter Notebook </li>
