@@ -11,10 +11,17 @@
 ### CNN Code Set Up  <br>
 
 ### LSTM Model Code Set Up 
-##Create Environment <br>
-Using Python Version 3.10.13 <br>
+#### Create Environment <br>
+> :bulb: **Tip:** Create Environment using Python Version 3.10.13
+> :bulb: **Tip:** Use Platform: osx-arm64.
 Run the following code: <br>
-$ conda create --name ltyh-env --file lstm-requirements.txt -c conda-forge <br>
+<ol>
+  <li> Create Environment : conda create -n my_lstm_env -c conda-forge --platform osx-arm64 python=3.10 </li>
+  <li> Activate the environment: conda activate my_lstm_env</li>
+  <li> Install the required packages: Install conda install --file lstm-requirements.txt -c conda-forge</li>
+  <li> Run the lstm.ipynb Jupyter Notebook </li>
+</ol>
+
 
 ### Lime Segmentation Implementation 
 
