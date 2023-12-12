@@ -1,8 +1,11 @@
 # listen_to_your_heart <br>
-### Final Project Github Repo for Listen To Your Heart Group Project (CS5100 FA23)
+#### Final Project Github Repo for Listen To Your Heart Group Project (CS5100 FA23)
+_____________________
 
+The Project focuses on developing eXplainable AI (XAI) methods to try and help explain/understand these state-of-the-art models. Using LSTM and CNN Machine Learning Models to make accurate predictions about congestive heart failure using ECGs, this project further explains the Neural Network output/prediction using the LIME Segment eXplainable AI tool. Thus, eliminating the ambiguity arround most  network predictions.
 
-### To Run Code  <br>
+_____________________________
+## Steps To Run Code  <br>
 
 
 ### Data Load Set Up  <br>
