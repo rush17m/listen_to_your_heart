@@ -20,7 +20,7 @@ _____________________________
   <li> Create Environment : conda create -n my_cnn_env -c conda-forge --platform osx-arm64 python=3.8 </li>
   <li> Activate the environment: conda activate my_lstm_env </li>
   <li> Install the required packages: conda install --file requirements.txt -c conda-forge</li>
-  <li> Run the generate cnn.ipynb Jupyter Notebook </li>
+  <li> Run the generate_cnn.ipynb Jupyter Notebook </li>
 </ol>
 
 ### LSTM Model Code Set Up 
