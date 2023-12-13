@@ -24,7 +24,7 @@ Training of the CNN and LSTM can be skipped if desired.
 #### Run the following code: <br>
 <ol>
   <li> Activate the environment: conda activate myenv </li>
-  <li> Install the required packages: conda install --file requirements.txt -c conda-forge</li>
+  <li> Install the required packages: conda install --file requirements_update.txt -c conda-forge</li>
   <li> Run the generate_cnn.ipynb Jupyter Notebook </li>
 </ol>
 
