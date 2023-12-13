@@ -8,12 +8,13 @@ _____________________________
 
 ### Data Load Set Up  <br>
 > Load data from PyhsioNet  <br>
+The RR data data to be analyzed has already been placed into the listen_to_your_heart repo, however if a re-run is required, kindly run in the LSTM environment <br>
 * Run the download.ipynb <br>
 
 ### CNN Code Set Up  <br>
 #### Create Environment <br>
 > :bulb: **Tip:** Create Environment using Python Version 3.8 <br>
-> :bulb: **Tip:** Use Platform: osx-arm64. <br>
+> :bulb: **Tip:** Use Windows Platform <br>
 
 #### Run the following code: <br>
 <ol>
@@ -26,7 +27,7 @@ _____________________________
 ### LSTM Model Code Set Up 
 #### Create Environment <br>
 > :bulb: **Tip:** Create Environment using Python Version 3.10.13 <br>
-> :bulb: **Tip:** Use Platform: osx-arm64. <br>
+> :bulb: **Tip:** Use Platform <br>
 #### Run the following code: <br>
 <ol>
   <li> Create Environment: conda create -n my_lstm_env -c conda-forge --platform osx-arm64 python=3.10 </li>
@@ -37,8 +38,7 @@ _____________________________
 
 ### Lime Segmentation Implementation 
 > :bulb: **Tip:** Create Environment using Python Version 3.8 <br>
-> :bulb: **Tip:** Use Platform: osx-arm64. <br>
-> :bulb: **Tip:** Use Platform: osx-arm64. <br>
+> :bulb: **Tip:** Use Windows Platform <br>
 
 #### Run the following code: <br>
 
@@ -46,10 +46,11 @@ _____________________________
   <li> Create Environment: conda create -n my_lime_env -c conda-forge --platform osx-arm64 python=3.8 </li>
   <li> Activate the environment: conda activate my_lime_env </li>
   <li> Git clone https://github.com/rush17m/LIMESegment </li>
-  <li> Install the required packages: conda install --file requirements_update.txt -c conda-forge </li>
+  <li> Install the required packages: conda install --file requirements_update.txt </li>
   Run:
   <li> Run the explain.ipynb Jupyter Notebook </li>
 </ol>
+
 
 
 
