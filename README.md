@@ -18,7 +18,7 @@ The RR data data to be analyzed has already been placed into the listen_to_your_
 
 #### Run the following code: <br>
 <ol>
-  <li> Create Environment : conda create -n my_cnn_env -c conda-forge --platform osx-arm64 python=3.8 </li>
+  <li> Create Environment : conda create -n my_cnn_env -c conda-forge --platform python=3.8 </li>
   <li> Activate the environment: conda activate my_cnn_env </li>
   <li> Install the required packages: conda install --file requirements.txt -c conda-forge</li>
   <li> Run the generate_cnn.ipynb Jupyter Notebook </li>
@@ -27,10 +27,10 @@ The RR data data to be analyzed has already been placed into the listen_to_your_
 ### LSTM Model Code Set Up 
 #### Create Environment <br>
 > :bulb: **Tip:** Create Environment using Python Version 3.10.13 <br>
-> :bulb: **Tip:** Use Platform <br>
+> :bulb: **Tip:** Use Windows Platform <br>
 #### Run the following code: <br>
 <ol>
-  <li> Create Environment: conda create -n my_lstm_env -c conda-forge --platform osx-arm64 python=3.10 </li>
+  <li> Create Environment: conda create -n my_lstm_env -c conda-forge --platform  python=3.10 </li>
   <li> Activate the environment: conda activate my_lstm_env</li>
   <li> Install the required packages: conda install --file lstm-requirements.txt -c conda-forge</li>
   <li> Run the lstm.ipynb Jupyter Notebook </li>
@@ -43,7 +43,7 @@ The RR data data to be analyzed has already been placed into the listen_to_your_
 #### Run the following code: <br>
 
 <ol>
-  <li> Create Environment: conda create -n my_lime_env -c conda-forge --platform osx-arm64 python=3.8 </li>
+  <li> Create Environment: conda create -n my_lime_env -c conda-forge --platform python=3.8 </li>
   <li> Activate the environment: conda activate my_lime_env </li>
   <li> Git clone https://github.com/rush17m/LIMESegment </li>
   <li> Install the required packages: conda install --file requirements_update.txt </li>
