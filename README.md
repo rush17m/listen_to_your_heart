@@ -38,6 +38,7 @@ _____________________________
 ### Lime Segmentation Implementation 
 > :bulb: **Tip:** Create Environment using Python Version 3.8 <br>
 > :bulb: **Tip:** Use Platform: osx-arm64. <br>
+> :bulb: **Tip:** Use Platform: osx-arm64. <br>
 
 #### Run the following code: <br>
 
@@ -45,15 +46,12 @@ _____________________________
   <li> Create Environment: conda create -n my_lime_env -c conda-forge --platform osx-arm64 python=3.8 </li>
   <li> Activate the environment: conda activate my_lime_env </li>
   <li> Git clone https://github.com/rush17m/LIMESegment </li>
-  <li> Install the required packages: conda install --file lstm-requirements.txt -c conda-forge </li>
+  <li> Install the required packages: conda install --file requirements_update.txt -c conda-forge </li>
   Run:
   <li> Run the explain.ipynb Jupyter Notebook </li>
 </ol>
 
-```python
-  from Utils.explanations import LIMESegment
-  explanations = LIMESegment(ts, model, model_type, distance, window_size, cp, f)
-```
+
 
 
 
